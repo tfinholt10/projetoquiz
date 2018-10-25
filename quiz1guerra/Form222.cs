@@ -11,12 +11,12 @@ using MySql.Data.MySqlClient;
 
 namespace quiz1guerra
 {
-    public partial class Form27 : Form
+    public partial class Form222 : Form
     {
         public int contador;
         private THO _banco = new THO();
         private int _quizID;
-        public Form27(THO banco, int quizID)
+        public Form222(THO banco, int quizID)
         {
             InitializeComponent();
             contador = 0;
@@ -29,68 +29,23 @@ namespace quiz1guerra
 
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            int resp27;
-            if (radioButton4.Checked == true)
+            int resp22;
+            if (radioButton3.Checked == true)
             {
 
                 contador = contador + 1;
 
-                resp27 = 1;
+                resp22 = 1;
 
                 try
                 {
-                    string sql = "UPDATE quiz SET resp27 = @resp27";
+                    string sql = "UPDATE quiz SET resp22 = @resp22";
                     sql += " where id = @_quizID";
 
                     List<MySqlParameter> valores = new List<MySqlParameter>();
-                    valores.Add(new MySqlParameter("@resp27", resp27));
+                    valores.Add(new MySqlParameter("@resp22", resp22));
                     valores.Add(new MySqlParameter("@_quizID", _quizID));
                     _banco.Atualizar(sql, valores);
 
@@ -107,15 +62,15 @@ namespace quiz1guerra
             {
                 contador = contador + 0;
 
-                resp27 = 0;
+                resp22 = 0;
 
                 try
                 {
-                    string sql = "UPDATE quiz SET resp27 = @resp27 ";
+                    string sql = "UPDATE quiz SET resp22 = @resp22 ";
                     sql += " where id = @_quizID";
 
                     List<MySqlParameter> valores = new List<MySqlParameter>();
-                    valores.Add(new MySqlParameter("@resp27", resp27));
+                    valores.Add(new MySqlParameter("@resp22", resp22));
                     valores.Add(new MySqlParameter("@_quizID", _quizID));
                     _banco.Atualizar(sql, valores);
 

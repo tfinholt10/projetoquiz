@@ -1,6 +1,6 @@
 ﻿namespace quiz1guerra
 {
-    partial class Form24
+    partial class Form242
     {
         /// <summary>
         /// Required designer variable.
