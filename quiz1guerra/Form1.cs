@@ -91,24 +91,85 @@ namespace quiz1guerra
                 novaform6.ShowDialog();
                 contador = novaform6.contador;
 
-                Form7 novaform7 = new Form7(_banco, quizID);
+                Form13 novaform13 = new Form13(_banco, quizID);
+                novaform13.contador = contador;
+                novaform13.ShowDialog();
+                contador = novaform13.contador;
+
+                Form14 novaform14 = new Form14(_banco, quizID);
+                novaform14.contador = contador;
+                novaform14.ShowDialog();
+                contador = novaform14.contador;
+
+                Form15 novaform15 = new Form15(_banco, quizID);
+                novaform15.contador = contador;
+                novaform15.ShowDialog();
+                contador = novaform15.contador;
+
+                Form16 novaform16 = new Form16(_banco, quizID);
+                novaform16.contador = contador;
+                novaform16.ShowDialog();
+                contador = novaform16.contador;
+
+                Form17 novaform17 = new Form17(_banco, quizID);
+                novaform17.contador = contador;
+                novaform17.ShowDialog();
+                contador = novaform17.contador;
+
+                Form18 novaform18 = new Form18(_banco, quizID);
+                novaform18.contador = contador;
+                novaform18.ShowDialog();
+                contador = novaform18.contador;
+
+                Form19 novaform19 = new Form19(_banco, quizID);
+                novaform19.contador = contador;
+                novaform19.ShowDialog();
+                contador = novaform19.contador;
+
+                Form20 novaform20 = new Form20(_banco, quizID);
+                novaform20.contador = contador;
+                novaform20.ShowDialog();
+                contador = novaform20.contador;
+
+                Form21 novaform21 = new Form21(_banco, quizID);
+                novaform21.contador = contador;
+                novaform21.ShowDialog();
+                contador = novaform21.contador;
+
+                Form22 novaform22 = new Form22(_banco, quizID);
+                novaform22.contador = contador;
+                novaform22.ShowDialog();
+                contador = novaform22.contador;
+
+            Form24 novaform24 = new Form24(_banco, quizID);
+            novaform24.contador = contador;
+            novaform24.ShowDialog();
+            contador = novaform24.contador;
+
+            Form25 novaform25 = new Form25(_banco, quizID);
+            novaform25.contador = contador;
+            novaform25.ShowDialog();
+            contador = novaform25.contador;
+
+            Form26 novaform26 = new Form26(_banco, quizID);
+            novaform26.contador = contador;
+            novaform26.ShowDialog();
+            contador = novaform26.contador;
+
+            Form27 novaform27 = new Form27(_banco, quizID);
+            novaform27.contador = contador;
+            novaform27.ShowDialog();
+            contador = novaform27.contador;
+
+            Form28 novaform28 = new Form28(_banco, quizID);
+            novaform28.contador = contador;
+            novaform28.ShowDialog();
+            contador = novaform28.contador;
+
+            Form7 novaform7 = new Form7(_banco, quizID);
                 novaform7.contador = contador;
                 novaform7.ShowDialog();
 
-                Form8 novaform8 = new Form8();
-                novaform8.ShowDialog();
-
-                Form9 novaform9 = new Form9();
-                novaform9.ShowDialog();
-
-                Form10 novaform10 = new Form10();
-                novaform10.ShowDialog();
-
-                Form11 novaform11 = new Form11();
-                novaform11.ShowDialog();
-
-                Form12 novaform12 = new Form12();
-                novaform12.ShowDialog();
                 Close();
 
 

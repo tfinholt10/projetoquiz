@@ -85,5 +85,10 @@ namespace quiz1guerra
 
             Close();
         }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
